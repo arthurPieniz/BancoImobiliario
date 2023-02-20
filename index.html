@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="telalogin">
+        <h1 id="login-title">Login</h1>
+        <input type="email" placeholder="Digite seu email" id="email" autocomplete="off">
+        <br>
+        <input type="password" placeholder="Digite sua senha" id="password">
+        <br>
+        <button id="btn-login">Login</button>
+        <br>
+        <h5>Não possui conta? <a id="noconta">Clique aqui</a></h5>
+    </form>
+
+    <form class="telaregistrar">
+        <h1 id="login-title">Registrar</h1>
+        <input type="text" placeholder="Digite seu nome" id="nameregistrar" autocomplete="off">
+        <br>
+        <input type="email" placeholder="Digite seu email" id="emailregistrar" autocomplete="off">
+        <br>
+        <input type="password" placeholder="Digite sua senha" id="passwordregistrar">
+        <br>
+        <button id="btn-registrar">Registrar</button>
+        <br>
+        <h5>Já possui conta? <a id="siconta">Clique aqui</a></h5>
+    </form>
+
+    <div class="header">
+        <h1>Banco</h1>
+    </div>
+
+    <div class="telaum">
+        <div class="freelance">
+            <h2 id="freelance">↓ Freelances</h2>
+        </div>
+    <!-- <div class="matfree"> -->
+        <button class="matematicafree" id="matematicafree">
+            <h2 >Freelance matematica: responda e ganhe R$ 5</h2>
+        </button>
+    <!-- </div> -->
+    </div>
+
+    <div class="teladois">
+        <div class="imageprofile">
+            <img src="https://cdn.icon-icons.com/icons2/3066/PNG/96/user_person_profile_avatar_icon_190943.png" alt="">
+        </div>
+            <h4 id="nameperfil">[Nome perfil]</h4>
+            <h4 id="nameuid">[Uid do usuario]</h4>
+        <div class="links">
+            <a id="linkperfil">Perfil</a>
+            <a id="linkpicles">PICLES</a>
+        </div>
+            <div class="linha"></div>
+            <div class="infoperfil">
+                <div class="saldo">
+                    <h2>Seu saldo da conta é</h2>
+                    <br>
+                    <h2 id="namesaldo">R$ [saldo]</h2>
+                    <br>
+                    <button id="reload-reais">↺ Recarregar</button>
+                </div>
+            </div>
+            <div class="PICLES">
+                <h2>Fazer transferencia via PICLES</h2>
+                <button id="btn-picles">Clique Aqui</button>
+
+                <div class="telapicles">
+                    <p>Informe os dados para fazer a tranferencia:</p>
+                    <br>
+                    <input type="text" placeholder="UID do úsuario que receberá o valor" id="uidpicles">
+                    <br>
+                    <input type="number" placeholder="Valor a ser transferido" id="valuepicles">
+                    <div class="termos">
+                        <input type="checkbox" name="" id="contrato-check">
+                        <p>Eu concordo com os <a id="linktermos">termos do contrato</a></p>
+                    </div>
+                    <button id="desabled">Transfeir valor</button>
+                </div>
+            </div>      
+    </div>
+
+    <div class="footer">
+        <button id="house"  width="5%">
+            <img src="https://cdn.icon-icons.com/icons2/508/PNG/96/home_house_icon-icons.com_49851.png" alt="" id="selected" class="houseImg">
+        </button>
+        <button id="perfil" width="5%" >
+            <img src="https://cdn.icon-icons.com/icons2/3066/PNG/96/user_person_profile_avatar_icon_190943.png" alt="" class="profileImg">
+        </button>
+    </div>
+</body>
+<!-- Inclusão da biblioteca Firebase -->
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-firestore.js"></script>
+<script src="script.js"></script>
+</html>

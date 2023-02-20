@@ -1,0 +1,330 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.none{
+    display: none;
+}
+
+.header{
+    width: 100%;
+    text-align: center;
+    background-color: #ccc;
+    padding: 20px;
+    color: 	#8f7c16;
+}
+
+.telaum{
+    width: 100%;
+    padding: 30px;
+}
+
+.freelance{
+    width: 100%;
+    background-color: #ccc;
+    padding: 5px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.matfree{
+    text-align: end;
+}
+
+.matematicafree{
+    background-color: #ccc;
+    margin: 5px 0px;
+    border-radius: 10px;
+    padding: 3px 5px;
+    cursor: pointer;
+    width: 90%;
+    text-align: start;
+}
+
+.teladois{
+    width: 100%;
+}
+
+.imageprofile{
+    width: 100%;
+    text-align: center;
+    padding: 30px 10px 0px 0px;
+}
+
+.imageprofile img{
+    width: 20%;
+}
+
+h4{
+    width: 100%;
+    font-size: 18pt;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer{
+    width: 100%;
+    background-color: #c7c7c7;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    display: inline-flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.footer button{
+    width: 10%;
+    background-color: transparent;
+    border: 0px solid white;
+}
+
+.footer button img{
+    width: 80%;
+}
+
+.footer button img:hover{
+    cursor: pointer;
+}
+
+#selected{
+    width: 100%;
+}
+
+.links{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.links a{
+    color: #8f7c16;
+    font-size: 14.5pt;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.linha{
+    width: 98%;
+    height: 3px;
+    background-color: #8f7c16;
+    margin: 0px auto;
+}
+
+.saldo{
+    background-image: linear-gradient(90deg,#d1ba3a,#837421);
+    width: 90%;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.saldo button{
+    background-color: #dec63e;
+    border: 0px;
+    padding: 3px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.PICLES{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+#btn-picles{
+    width: 30%;
+    margin-top: 20px;
+    background-image: linear-gradient(90deg,#d1ba3a,#453e14);
+    color: white;
+    border: 0px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#btn-picles:hover{
+    cursor: pointer;
+}
+
+.telapicles{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.telapicles p{
+    margin-bottom: 5px;
+}
+
+.telapicles input{
+    width: 70%;
+    padding: 5px;
+    margin-top: 5px;
+    outline: none;
+    border-radius: 10px;
+}
+
+.termos{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.telapicles input[type="checkbox"]{
+    width: 18px;
+    height: 18px;
+    padding: 10px;
+}
+
+.termos p{
+    margin-left: 3px;
+}
+
+.termos p a{
+    color: blue;
+    text-decoration: underline;
+}
+
+.termos p a:hover{
+    cursor: pointer;
+}
+
+#desabled{
+    background-color: gray;
+    margin-top: 5px;
+    width: 30%;
+    border: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    opacity: 0.5;
+}
+
+#active{
+    background-color: #48b82c;
+    margin-top: 5px;
+    width: 30%;
+    border: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    opacity: 1;
+}
+
+#active:hover{
+    cursor: pointer;
+}
+
+.telalogin{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+#login-title{
+    color: #837421;
+    margin-bottom: 10px;
+}
+
+.telalogin input{
+    width: 80%;
+    margin-top: 10px;
+    padding: 7px 5px;
+    outline: none;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    font-size: 12pt;
+    border-bottom: 2px solid rgb(57, 57, 57);
+    color: #574d14;
+}
+
+.telalogin input:focus{
+    border-bottom: 1.5px solid #b49b0d;
+    transition: 0.3s;
+}
+
+.telalogin button{
+    width: 40%;
+    margin-top: 20px;
+    background-image: linear-gradient(90deg,#d1ba3a,#453e14);
+    color: white;
+    border: 0px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.telalogin h5{
+    margin-top: 15px;
+    font-size: 11pt;
+}
+
+.telalogin h5 a{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.telaregistrar{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+#login-title{
+    color: #837421;
+    margin-bottom: 10px;
+}
+
+.telaregistrar input{
+    width: 80%;
+    margin-top: 10px;
+    padding: 7px 5px;
+    outline: none;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    font-size: 12pt;
+    border-bottom: 2px solid rgb(57, 57, 57);
+    color: #574d14;
+}
+
+.telaregistrar input:focus{
+    border-bottom: 1.5px solid #b49b0d;
+    transition: 0.3s;
+}
+
+.telaregistrar button{
+    width: 40%;
+    margin-top: 20px;
+    background-image: linear-gradient(90deg,#d1ba3a,#453e14);
+    color: white;
+    border: 0px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.telaregistrar h5{
+    margin-top: 15px;
+    font-size: 11pt;
+}
+
+.telaregistrar h5 a{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
